@@ -9,9 +9,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/antonputra/lesson-158.git
+    repoURL: https://github.com/mygithub23/nginx-app.git
     targetRevision: HEAD
-    path: environments/staging/my-app
+    path: my-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
